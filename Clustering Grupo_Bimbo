@@ -72,7 +72,6 @@ library(plyr)
 n_products <- arrange(products, products$cluster, pid )
 n_products$product_name<- NULL
 
-
 n_products$product_shortname <- factor(n_products$product_shortname)
 library(cluster)
 library(fpc)
